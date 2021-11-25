@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu de Ceramica Catarinense</title>
+    
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="https://kit.fontawesome.com/ed59a78015.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+             <i class="fas fa-archway fa-4x" ></i> 
+            <h1 class="logo">
+            <img src="./images/logo.png" width="250px" alt="Logo Museu de Ceramica Catarinense"/>
+            </h1>
+    </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Acervo</a></li>
+                <li><a href="#">Exposições</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><a href="#">Palestras</a></li>
+                <li><a href="#">Oficinas</a></li>
+                <li><a href="#">Encontros</a></li>
+                <li><a href="#">Fórum</a></li>
+            </ul>
+        </nav>
+        <!--conteudo-->
+        <main class="principal">
+            <div class="row">
+                <article class="exposicao">
+                    <h2> Exposição do Mês </h2>
+                    <img src="./images/imagem 07.jpg" alt="Coleção de Cerâmica do Extremo Oriente: China, Japão e Sudeste Asiático">
+                    <h3>Coleção de Cerâmica do Extremo Oriente: China, Japão e Sudeste Asiático</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining...</p>
+                    <button>Continuar Lendo</button>
+                </article>
+                
+                <article class="acervo">
+                    <h2>ACERVO</h2>
+                    </article>
+                <article>
+                    <img width="310" height="170" src="./images/imagem 04.jpg" alt="Cerâmicas Antigas" ></img>
+                    <h3>Cerâmicas Antigas</h3>
+                </article>
+                <article class="acervo">
+                    <img width="310" height="170" src="./images/imagem 08.jpg" alt="Cerâmicas Antigas" ></img>
+                    <h3>Cerâmicas Rupestre</h3>
+                </article>
+                <article class="acervo">
+                    <img width="310" height="170" src="./images/imagem 09.jpg" alt="Cerâmicas Indígenas" ></img>
+                    <h3>Cerâmicas Indígenas</h3>
+                </article>
+                <article class="acervo">
+                    <img width="310" height="170" src="./images/imagem 10.jpg" alt="Cerâmicas Incas" ></img>
+                    <h3>Cerâmicas Incas</h3>
+                </article>
+            </div>
+                
+                <!--Barra Lateral-->
+            <div class="row2">
+                <aside class="contato">
+                    <h2> Onde Estamos </h2>
+                    <p> Palácio Cruz e Sousa - Praça XV de Novembro, 227 - Centro, Florianópolis - SC, 88010-400 </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905188.6522447014!2d-49.11032873437501!3d-27.596841399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273824c0cc7839%3A0x348e37f3777b6dba!2sMuseu%20Hist%C3%B3rico%20de%20Santa%20Catarina!5e0!3m2!1spt-BR!2sbr!4v1637696849744!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <h2> Contatos </h2>
+                    <ul>
+                        <li> <i class="fa fa-phone fa-lg"></i>(48) 3665-6363</li>
+                        <li> <i class="fa fa-whatsapp fa-lg"></i> (48) 3665-6363 </li>
+                        <li> <i class="fa fa-envelope fa-lg"></i> contato@museu.com.br </li>
+                    </ul>
+                
+                    <!--formulario de visita-->
+                <aside class="visita">
+                        <h2>Agende sua visita</h2>
+                        <form action="">
+                            <fieldset>
+
+                                <label for="data">Data:</label>
+                                <input class="campo"  type="text" id="data" value="dd/mm/aaaa">
+
+                                <label for="qtd">Qtd Pessoas:</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                            </fieldset>
+                            <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </form>
+                    </aside>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="rodape">
+            <p>
+                <a href="#">Início</a>
+                <a href="#">Acervo</a>
+                <a href="#">Exposições</a>
+                <a href="#">Pesquisa</a>
+                <a href="#">Palestras</a>
+                <a href="#">Oficinas</a>
+                <a href="#">Encontros</a>
+                <a href="#">Fórum</a>
+            </p> 
+            <p> 1998 © <a href="index.html">Museu de Cerâmica Catarinense</a> - Todos os direitos reservados.</p>
+        </footer>
+    
+
+</body>
+</html>
